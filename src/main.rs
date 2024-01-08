@@ -61,6 +61,10 @@ fn main() {
 
         i += 1;
     }
+
+    println!("Нажмите Enter, чтобы выйти...");
+    let mut exit = String::new();
+    io::stdin().read_line(&mut exit).expect("Error");
 }
 
 
